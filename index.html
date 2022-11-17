@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Intellitech</title>
+  </head>
+  <body>
+    <div id="nav-placeholder"></div>
+   
+    <main>
+        <section id="hero">
+            <div class="hero__text">
+                <h1>The Smartest IT Firm For Your Enterprise</h1>
+                <p>Our core purpose is to assist our clients in carrying out their duties. We provide a wide range of services, from on-site system installation and management to cloud and hybrid solutions. </p>
+            </div>
+            <div class="hero__img">
+                <img src="./img/Images/hero image.png" alt="can't load i,age">
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("./assets/nav.html");
+      });
+
+      $(function () {
+        $("#footer-placeholder").load("./assets/footer.html");
+      });
+    </script>
+  </body>
+</html>
