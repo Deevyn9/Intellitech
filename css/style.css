@@ -60,7 +60,7 @@ nav .burger-container {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  z-index: 3;
+  z-index: 6;
 }
 
 nav .burger-container .burger {
@@ -598,6 +598,7 @@ footer {
   .links-container.fill {
     width: 100vw;
     height: 100vh;
+    z-index: 5;
   }
 
   .nav-links.active {

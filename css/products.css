@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --footer: #fcfeff;
+  --off-white: #f2f2f2;
+  --overlay: #00000066;
+  --blue: #0077b5;
+  --hover-blue: #2d9cdb;
+  --light-blue: #f2f8fb;
+  --consistency-red: #eb5757;
+  --network-purple: #bb6bd9;
+  --it-orange: #f2994a;
+  --green: #65e4a3;
+  --lighter-text: #5e6282;
+  --primary-text-color: #4f4f4f;
+  --grid-container: #fff7ef4d;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  position: relative;
+}
+
+#products__hero {
+  height: auto;
+  position: relative;
+}
+
+#products__hero img {
+  width: 100%;
+}
+
+#products__hero .hero-overlay {
+  position: absolute;
+  background-color: #00000066;
+  height: 99%;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+#products__hero .hero-text {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+#products__hero .hero-text h3 {
+  font-size: 20px;
+}
+
+#products__hero .hero-text p {
+  font-size: 15px;
+}
+
+#products .product {
+  display: flex;
+  padding: 30px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#products .product img {
+  height: 35px;
+}
+
+#products .product .product__details {
+  width: calc(80% - 30px);
+}
+
+#products .product .product__details h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#products .product .product__details p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 15px;
+  max-width: 700px;
+}
+
+#products .product .product__details button {
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#products .product .product__details button:hover {
+  background-color: var(--hover-blue);
+}
+
+@media (max-width: 330px) {
+  #products .product img {
+    height: 25px;
+  }
+
+  #products .product .product__details {
+    width: calc(80% - 25px);
+  }
+
+  #products .product .product__details h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  #products .product .product__details p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 15px;
+    max-width: 700px;
+  }
+
+  #products .product .product__details button {
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+}
+
+@media (min-width: 500px) {
+  #products__hero .hero-text h3 {
+    font-size: 30px;
+  }
+
+  #products__hero .hero-text p {
+    font-size: 20px;
+  }
+
+  #products .product {
+    padding: 30px 40px;
+  }
+
+  #products .product img {
+    height: 50px;
+  }
+
+  #products .product .product__details {
+    width: calc(80% - 50px);
+  }
+
+  #products .product .product__details button {
+     padding: 10px 20px;
+ }
+}
+
+@media (min-width: 700px) {
+  #products .product img {
+    height: 60px;
+  }
+
+  #products .product .product__details {
+    width: calc(80% - 60px);
+  }
+
+  #products .product .product__details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  #products .product .product__details p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    max-width: 700px;
+  }
+
+  #products .product .product__details button {
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+}
+
+@media (min-width: 1000px) {
+  #products__hero .hero-text h3 {
+    font-size: 40px;
+  }
+
+  #products__hero .hero-text p {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1100px) {
+  #products .product img {
+    height: 100px;
+  }
+
+  #products .product .product__details {
+    width: calc(85% - 100px);
+  }
+
+  #products .product {
+    padding: 80px 90px;
+  }
+
+  #products .product .product__details h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  #products .product .product__details p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 40px;
+    max-width: 700px;
+  }
+}
