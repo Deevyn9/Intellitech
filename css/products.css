@@ -27,6 +27,11 @@ body {
   position: relative;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 #products__hero {
   height: auto;
   position: relative;
