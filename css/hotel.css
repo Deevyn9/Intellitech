@@ -92,6 +92,27 @@ body {
     margin-bottom: 2px;
 }
 
+#quote {
+    padding: 0px 0 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote button {
+    border: none;
+    background-color: var(--blue);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#quote button:hover {
+    background-color: var(--hover-blue);
+}
+
 @media (max-width: 340px) {
     #sales__hero .sales__hero-text  h3{
         font-size: 30px;
@@ -102,6 +123,17 @@ body {
         line-height: 25px;
         margin: 0 10px;
     }
+
+    #list__part .list {
+    padding: 15px;
+}
+}
+
+@media (min-width: 790px) {
+    #list__part .list {
+    width: 40%;
+}
+
 }
 
 @media (min-width: 900px) {
