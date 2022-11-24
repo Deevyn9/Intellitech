@@ -11,3 +11,177 @@
   --blue: #0077b5;
   --hover-blue: #2d9cdb;
 }
+
+#career__hero {
+  padding: 15px 20px;
+}
+
+#career__hero .career__hero-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+#career__hero img {
+  width: 100%;
+}
+
+#career__hero .hero__text {
+  position: absolute;
+  background-color: #ffffffe6;
+  padding: 20px;
+  left: 10px;
+}
+
+#career__hero .hero__text h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#career__hero .hero__text button {
+  background-color: var(--blue);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#career__hero .hero__text button a {
+  color: white;
+  text-decoration: none;
+}
+
+#benefits {
+    padding: 30px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#benefits h3 {
+    color: var(--blue);
+    font-size: 18px;
+}
+
+#benefits h2 {
+    font-size: 28px;
+}
+
+#benefits .benefits__header {
+    margin-bottom: 50px;
+}
+
+#benefits .grid .grid-item {
+    padding: 0;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+#vacancies {
+    background-color: var(--off-white);
+    padding: 50px 20px;
+}
+
+#vacancies h3 {
+    color: var(--blue);
+    text-align: center;
+    font-size: 30px;
+}
+
+#vacancies .vacancy__details-header {
+    background-color: white;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+#vacancies .vacancy__details-header p {
+    margin-top: 10px;
+    margin-right: 110px;
+}
+
+#vacancies .vacancy__details-main {
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+}
+
+#vacancies .vacancy__details-main p a {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+#vacancies .vacancy__details-main p a img {
+    filter: invert(40%) sepia(87%) saturate(4935%) hue-rotate(184deg) brightness(93%) contrast(104%);
+}
+@media (max-width: 300px) {
+  #career__hero {
+    padding: 15px 10px;
+  }
+}
+
+@media (max-width: 350px) {
+      #career__hero .hero__text {
+    padding: 7px;
+    width: 80%;
+    left: 10px;
+  }
+
+  #career__hero .hero__text button {
+  padding: 7px 12px;
+  font-size: 10px;
+ }
+
+ #career__hero .hero__text h3 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+}
+
+@media (max-width: 600px) {
+   #vacancies .vacancy__details-header {
+    display: none;
+}
+}
+
+@media (min-width: 600px) {
+   #career__hero .hero__text h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+}
+
+@media (min-width: 850px) {
+    #career__hero .hero__text {
+    width: 700px;
+    left: 70px;
+    padding: 50px 30px;
+}
+ #career__hero .hero__text h3 {
+    font-size: 50px;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+ #career__hero .hero__text button {
+    padding: 20px 40px;
+}
+}
+
+@media (min-width: 1100px) {
+  #career__hero {
+    padding: 80px 110px;
+  }
+}
