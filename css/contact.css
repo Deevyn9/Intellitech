@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --off-white: #f2f2f2;
+  --blue: #0077b5;
+  --hover-blue: #2d9cdb;
+}
+
+#map__image img {
+  width: 100%;
+}
+
+#contact__us {
+  padding: 50px 20px;
+  /* display: flex; */
+  background: url(../img/Images/contact\ back.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: space-evenly;
+  margin-top: -5px;
+}
+
+.contact__us-main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#contact__us h2 {
+  color: var(--blue);
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.contact__us-left form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  max-width: 624px;
+}
+
+.contact__us-left form input {
+  background-color: white;
+  border: none;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.contact__us-left form button {
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.contact__us-left form button:hover {
+    background-color: var(--hover-blue);
+}
+
+.contact__us-left form textarea {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact__us-right {
+  background-color: var(--blue);
+  color: white;
+  max-width: 270px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact__us-right h3 {
+  margin: 30px 0;
+  font-size: 25px;
+}
+
+.contact__us-right .contact__detail {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 35px;
+  border: 2px dashed mediumseagreen;
+}
+
+.contact__us-right .contact__detail img {
+  height: 15px;
+  margin: 5px 7px 0 0;
+}
+
+@media (max-width: 300px) {
+  #contact__us {
+    padding: 30px 10px;
+  }
+}
+
+@media (min-width: 770px) {
+  .contact__us-main {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 850px) {
+  #contact__us {
+    padding: 50px 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #contact__us {
+    padding: 50px 100px;
+  }
+
+  .contact__us-left form input {
+    width: 650px;
+    height: 50px;
+  }
+
+   .contact__us-left form textarea {
+    width: 650px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1400px) {
+    #contact__us {
+        padding: 50px 15%;
+    }
+}
