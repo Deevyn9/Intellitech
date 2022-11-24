@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+    padding: 20px;
+}
+
+main #blog__hero h2 {
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+main #blog__hero img {
+    width: 100%;
+}
+
+main #blog__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 30px;
+}
+
+main #blog__info .info-left {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+}
+
+main #blog__info .info-left p {
+    display: flex;
+    align-items: center;
+    margin: 0 10px 5px 0;
+    font-size: 14px;
+}
+
+main #blog__info .info-left img {
+    margin-right: 5px;
+}
+
+main #blog__info img {
+    height: 15px;
+}
+
+main #blog__info .info-right img {
+    margin-left: 5px;
+}
+
+@media (min-width: 770px) {
+    main {
+        padding: 50px;
+    }
+
+    main #blog__hero h2 {
+        font-size: 50px;
+         margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 900px) {
+      main {
+        padding: 50px 70px;
+    }
+}
+
+@media (min-width: 1100px) {
+    main {
+        padding: 50px 100px;
+    }
+
+    main #blog__hero img {
+    height: 400px;
+}
+}
