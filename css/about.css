@@ -51,7 +51,6 @@ body {
     position: relative;
     display: inline-block;
     max-width: 400px;
-    border: 2px solid red;
 }
 
 #about__hero .hero__image .above {
@@ -70,7 +69,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px dashed royalblue;
 }
 
 .main__about .about__text h3 {

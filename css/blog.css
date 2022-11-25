@@ -16,8 +16,6 @@ main hr {
 
 main .main__hero {
   display: flex;
-  /* width: 100%; */
-  border: 2px dashed red;
   padding: 10px 0 80px;
   flex-wrap: wrap;
   justify-content: center;
