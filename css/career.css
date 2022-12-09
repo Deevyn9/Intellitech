@@ -116,7 +116,7 @@
     display: flex;
     background-color: white;
     margin-top: 20px;
-    height: 60px;
+    min-height: 60px;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
